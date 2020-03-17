@@ -502,7 +502,7 @@ if(isset($_POST['Afficher'])){
 if(is_nan($notesSum)){
     echo $htmlVotes . "</tr></tbody></table>";
 }else{
-    echo $htmlVotes . "</tr><tr><td>La moyenne est de :</td><td>" . $notesSum / $notesCounter."</td></tr><tr><td>Il y a $admis d'acceptés sur $notesCounter</td></tr></tbody></table>";
+    echo $htmlVotes . "</tr><tr><td>La moyenne de la classe est de :</td><td>" . $notesSum / $notesCounter."</td></tr><tr><td>Il y a $admis d'acceptés sur $notesCounter</td></tr></tbody></table>";
 }
 
 
